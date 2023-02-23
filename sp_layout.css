@@ -26,10 +26,21 @@ body {
    min-height: 100%;
 }
 
+img {
+   display: block;
+}
+
 /* CSS Grid Styles */
+body {
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%; /* recommend */
+   /* grid-template-columns: 1fr 1fr 1fr 1fr; not work, weird step 6 in textbook */
+}
 
-
-
+#logo {
+   grid-column: 1 / span 3;
+   width: 100%;
+}
 
 
 
