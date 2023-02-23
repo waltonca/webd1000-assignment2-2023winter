@@ -42,7 +42,13 @@ body {
    width: 100%;
 }
 
+nav.horizontal, footer {
+   grid-column: 1 / span 4;
+}
 
+aside {
+   grid-column: span 2 ;
+}
 
 /* Horizontal Navigation List Styles */
 
