@@ -47,15 +47,26 @@ nav.horizontal, footer {
 }
 
 aside {
-   grid-column: span 2 ;
+   grid-column: span 2 ; /* each of aside take 2 colum,seem don't need start position, check the w3s */
 }
 
 /* Horizontal Navigation List Styles */
-
+nav.horizontal li {
+   width: 12.5%;
+   float: left;
+}
 
 
 /* Section Styles */
+section img {
+   width: 50%;
+   margin: 0 auto;
+}
 
+section p {
+   width: 70%;
+   margin: 0 auto;
+}
 
 
 
