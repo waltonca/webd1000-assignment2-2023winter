@@ -68,7 +68,20 @@ section p {
    margin: 0 auto;
 }
 
-
-
 /* Customer Comment Styles */
-
+aside {
+   width: 75%;
+   padding-bottom: 30px;
+}
+aside:nth-of-type(odd) {
+   justify-self: right; /* what's is this property*/
+}
+aside img {
+   float: left;
+   width: 20%;
+}
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
